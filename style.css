@@ -10,21 +10,63 @@
 }
   /* shared style  */
   .text-color{
-    color: orange;
+    color:#FD6E0A ;
+  }
+ 
+ 
+ .dark2{
+    color:#474747;
+  }
+  .btn-color{
+    background-color:#FD6E0A ;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 64px;
+      border-radius: 10px;
+       cursor: pointer;
+       border-color: aqua;
+        padding: ;
   }
  nav{
     display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin:50px 200px ;
+  
+ 
+   
  }
-.nav-title{
-    font-weight: 800px;
+ .nav-title{
+    font-weight: 800;
     font-size: 45px;
 }
+ nav ul{
+    display: flex;
+    align-items:center;
+   
+ }
 nav ul li{
-    list-style: none
+    list-style: none;
+    margin-right:50px;
+    
     
 }
-nav ul li a{
+nav li a{
     text-decoration: none;
-    display: flex;
+    font-size: 20px;
+}  
+    /* banner */
+ .Banner{
+  display: flex;
+ }
+.Banner-greeting{
+  font-size: 45px;
+  font-size: 600;
 }
-j
+.Banner-title{
+  font-weight: bold;
+  font-size: 85px;
+
+}
+
