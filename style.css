@@ -8,9 +8,20 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* header */
+.header{
+  background-image: url(images/developer.png),url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+ 
+
   /* shared style  */
   .text-color{
     color:#FD6E0A ;
+  }
+  .tex-color:hover{
+    background-color: gold;
   }
  
  
@@ -28,6 +39,7 @@
        border-color: aqua;
         padding: ;
   }
+
  nav{
     display: flex;
    align-items: center;
@@ -59,6 +71,9 @@ nav li a{
     /* banner */
  .Banner{
   display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+
  }
 .Banner-greeting{
   font-size: 45px;
@@ -69,4 +84,5 @@ nav li a{
   font-size: 85px;
 
 }
+ 
 
